@@ -3,6 +3,16 @@
 
 This FastAPI application wraps AutoGen code generation functionality, providing HTTP endpoints to process tasks and retrieve generated code files.
 
+Agent takes in a task description, such as:
+
+```
+"Analyze American Airlines (AAL) stock, include last 2 years use scikit learn"
+
+```
+
+then, generates a code to perform this task, executes the code and analyses the results
+
+![alt text](task.png "task")
 
 ## Usage
 
@@ -38,6 +48,7 @@ curl -X POST "http://localhost:8000/process" \
      -d '{"task": "Analyze American Airlines (AAL) stock, include last 2 years of stock data and Calculate basic technical indicators (moving averages, volatility)"}'
 ```
 
+img{}
 Response:
 ```json
 {
