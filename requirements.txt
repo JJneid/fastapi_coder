@@ -1,8 +1,7 @@
-# requirements.txt
-fastapi==0.109.0
-uvicorn==0.27.0
-python-dotenv==1.0.0
-pydantic==2.5.3
-autogen-agentchat
-autogen-ext[openai]
-python-multipart
+autogen_agentchat==0.4.3
+autogen_core==0.4.3
+autogen_ext==0.4.3
+fastapi==0.115.7
+pydantic==1.10.4
+python-dotenv==1.0.1
+uvicorn==0.15.0

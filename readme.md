@@ -99,10 +99,8 @@ curl "http://localhost:8000/code/hello_world_123.py"
 2. Complex task test:
 ```bash
 # Test stock analysis
-curl -X POST "http://localhost:8000/process" \
+curl -X POST "https://coderapp-721222553297.us-central1.run.app/process" \
      -H "Content-Type: application/json" \
      -d '{"task": "Analyze American Airlines (AAL) stock, include last 2 years of stock data and Calculate basic technical indicators (moving averages, volatility)"}'
 ```
-
-#
 
